@@ -15,3 +15,6 @@
 7. rebase the explanations on top of your original branch and squash the two explanation commits together
 
 8. Create a pull request from your branch to main.
+
+
+hint: git log --all --decorate --oneline --graph
