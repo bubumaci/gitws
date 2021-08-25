@@ -1,2 +1,10 @@
+merge:
+
 git checkout feature
 git merge main
+
+
+rebase:
+
+git checkout feature
+git rebase main
