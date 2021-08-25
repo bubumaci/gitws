@@ -14,7 +14,9 @@
     
 7. rebase the explanations on top of your original branch and squash the two explanation commits together
 
-8. Create a pull request from your branch to main.
+8. merge git-doc-yourname into your first branch
+
+9. Create a pull request from your branch to main.
 
 
 hint: git log --all --decorate --oneline --graph
