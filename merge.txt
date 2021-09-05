@@ -1,6 +1,19 @@
+HOW TO MERGE
+
 git checkout -b "new branch"
 git add "file"
 git commit -m "commit"
 git push --set-upstream origin "new branch"
 git switch main
 git merge "new branch"
+
+
+REBASE
+
+The only differences between a rebase and a merge are:
+
+    The resulting tree structure of the history (generally only noticeable when looking at a commit graph) is different (one will have branches, the other won't).
+    Merge will generally create an extra commit (e.g. node in the tree).
+    Merge and rebase will handle conflicts differently. Rebase will present conflicts one commit at a time where merge will present them all at once.
+
+So the short answer is to pick rebase or merge based on what you want your history to look like.
