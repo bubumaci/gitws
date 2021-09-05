@@ -1,0 +1,3 @@
+Firt add the file to your branch, with "git add <file>" command.
+"Git commit -m <commit message>" and then "git push".
+If you want to merge with development, go with "git checkout <branchname>" to the main branch and with "git merge <branchname>".
