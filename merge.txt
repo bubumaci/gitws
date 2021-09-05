@@ -1,0 +1,6 @@
+git checkout -b "new branch"
+git add "file"
+git commit -m "commit"
+git push --set-upstream origin "new branch"
+git switch main
+git merge "new branch"
