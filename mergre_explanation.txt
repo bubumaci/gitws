@@ -4,3 +4,7 @@ git commit -m file
 git push --set-upstream origin new_branch_name
 git checkout main
 git merge new_branch_name
+
+rebase is necessary:
+new_branch-et használjuk eredetiként
+a korábbi main branch history-ja megmarad, az új branch commitjai bekerülnek elé
