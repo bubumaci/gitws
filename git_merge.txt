@@ -1,0 +1,12 @@
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+Suppose you’ve decided that your issue fix is complete and ready to be merged into your master branch. 
+In order to do that, you’ll merge your issue branch into master.
+All you have to do is check out the branch you wish to merge into and then run the git merge command.
+
+https://git-scm.com/book/en/v2/Git-Branching-Rebasing
+
+You can take the patch of the issue that was fixed and reapply it on top of master. 
+In Git, this is called rebasing. 
+With the rebase command, you can take all the changes that were committed on one branch 
+and replay them on a different branch.
