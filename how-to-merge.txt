@@ -1,0 +1,2 @@
+I have to be on the branch I would like to merge into!
+git merge <branch-name>
