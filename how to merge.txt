@@ -1,1 +1,3 @@
 git merge blabla - check on google
+
+rebasing - the same, google is your friend
