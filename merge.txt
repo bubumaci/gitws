@@ -3,3 +3,6 @@
 - you resolve conflicts
 - you push
 - you happy
+
+- rebasing is when you end the features line on the branch
+and you "add" to the main branch's end the commtis you created on the previous branch
