@@ -1,4 +1,12 @@
 git merge blabla - check on google
-git merge command
+
+The git merge command will merge any changes that were made to the code base on a separate branch
+to your current branch as a new commit.
+
+Syntax:
+git merge BRANCH-NAME
+
 rebasing - the same, google is your friend
-maybe rebase command?
+Rebasing a branch in Git is a way to move the entirety of a branch to another point in the tree.
+The simplest example is moving a branch further up in the tree.
+To rebase, make sure you have all the commits you want in the rebase in your master branch.
