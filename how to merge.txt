@@ -1,3 +1,12 @@
-git merge blabla - check on google
+git merge:
+Let's say you want to merge your branche (git-docs-yourname) 
+into an other branche (firstname-lastname-module)
+1. Merge the other branche into your branch with the following command:
+ - git merge firstname-lastname-module
+2. Solve every conflict & push the resolved changes
+3. Checkout to the other branche
+ - git checkout firstname-lastname-module
+4. Merge your branche into the other
+ - git merge git-docs-yourname
 
 rebasing - the same, google is your friend
