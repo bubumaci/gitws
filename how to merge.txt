@@ -19,3 +19,11 @@ Let's say you want to rebase `topic` branch into `master`
 		- git rebase --continou
 	- Do this until you sucesfully rebased every commit from your branche to the `master`
 4. After rebase you still be on `topic` branche!!
+git merge blabla - check on google
+
+
+
+commit and push a modification to the file with an explanation for rebasing
+
+
+start a new branch called git-doc-yourname from your first commit, create and push a file on it that explains how to do merge in git
