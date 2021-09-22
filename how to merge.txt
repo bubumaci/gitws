@@ -1,3 +1,4 @@
 git merge <branch-name that you want to merge into the current branch>
 
-rebasing - the same, google is your friend
+Rebasing is a common way to integrate upstream changes into your local repository.
+git rebase <base>
