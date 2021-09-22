@@ -1,3 +1,3 @@
-git merge blabla - check on google
+git merge "branch_name" - In the place of the "branch_name", write the brach want to merge into your CURRENT branch
 
-rebasing - the same, google is your friend
+rebasing - google is your friend
