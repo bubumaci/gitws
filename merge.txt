@@ -1,0 +1,5 @@
+- you need data from other branch
+- you merge with other branch
+- you resolve conflicts
+- you push
+- you happy
