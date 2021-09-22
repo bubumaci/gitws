@@ -1,3 +1,9 @@
-git merge blabla - check on google
+you merge
+it works
+no conflixts
+you happy
 
-rebasing - the same, google is your friend
+rebase is same
+except it isn't 
+but what if I am killed
+Who was phone?
