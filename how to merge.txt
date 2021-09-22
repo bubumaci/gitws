@@ -1,3 +1,5 @@
-git merge blabla - check on google
+git merge:
+Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. The following examples in this document will focus on this branch merging pattern. In these scenarios, git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
 
-rebasing - the same, google is your friend
+Git rebase:
+This document will serve as an in-depth discussion of the git rebase command. The Rebase command has also been looked at on the setting up a repository and rewriting history pages. This page will take a more detailed look at git rebase configuration and execution. Common Rebase use cases and pitfalls will be covered here.
