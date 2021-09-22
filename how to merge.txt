@@ -9,4 +9,13 @@ into an other branche (firstname-lastname-module)
 4. Merge your branche into the other
  - git merge git-docs-yourname
 
-rebasing - the same, google is your friend
+git rebase:
+Let's say you want to rebase `topic` branch into `master`
+1. You current branch is `topic`
+2. Type in the following command:
+ - git rebase `master`
+3. Resolve the conflict if there is any.
+	- If there were conflict and you resolved it you can continou the rebasing process by the following command
+		- git rebase --continou
+	- Do this until you sucesfully rebased every commit from your branche to the `master`
+4. After rebase you still be on `topic` branche!!
