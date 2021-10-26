@@ -1,1 +1,1 @@
-print("Roland Balogh")
+print("Bogi Trencsényi")
