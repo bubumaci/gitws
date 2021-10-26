@@ -1,0 +1,1 @@
+print('How to merge? Kinda no idea, but it is done with git merge --no-ff <branch> it merges the specified branch into the current branch')
