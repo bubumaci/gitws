@@ -1,3 +1,6 @@
+--scroll down for resbasing info--
+
+
 # Start a new feature
 git checkout -b new-feature main
 # Edit some files
@@ -10,3 +13,10 @@ git commit -m "Finish a feature"
 git checkout main
 git merge new-feature
 git branch -d new-feature
+
+
+# Create a feature branch based off of main
+git checkout -b feature_branch main
+# Edit files
+git commit -a -m "Adds new feature"
+git rebase <base>
