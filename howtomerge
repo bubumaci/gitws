@@ -1,0 +1,13 @@
+git commit -m "commit on branch"
+git push
+git checkout dev
+git merge
+solve merge conflicts
+git commit -m "merge on dev"
+git push
+
+
+rebase:
+when you do a rebase it merges all the commit tree
+
+git rebase <dev>
