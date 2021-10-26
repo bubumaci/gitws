@@ -1,1 +1,1 @@
-print('How to merge? No idea yet, hopefully I will learn soon')
+print('How to rebase? I will just copy myself... No idea yet :(')
