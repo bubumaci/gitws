@@ -1,2 +1,5 @@
 checkout to branch you want to merge into
 git merge <from>
+
+stay in the branch you want to rebase from
+git rebase <to>
