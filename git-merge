@@ -1,0 +1,7 @@
+git commit -m "commit on branch"
+git push
+git checkout dev
+git merge
+solve merge conflicts
+git commit -m "merge on dev"
+git push
