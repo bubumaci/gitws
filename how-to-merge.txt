@@ -1,0 +1,1 @@
+accept/ignore incoming changes, decide which one to keep
