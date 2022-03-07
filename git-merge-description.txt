@@ -1,0 +1,3 @@
+git checkout receiveing-branch
+git merge branch-to-be-merged
+git push
