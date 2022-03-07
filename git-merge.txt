@@ -2,3 +2,9 @@ How to merge in git?
 
 If you don't know how to merge in git read this tutorial: 
 https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
+
+How to rebase in git?
+
+If you want to learn about rebase see that one:
+https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
