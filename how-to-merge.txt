@@ -1,1 +1,2 @@
 accept/ignore incoming changes, decide which one to keep
+rebasing means to add changes on top of your branch
