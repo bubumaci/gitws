@@ -1,0 +1,1 @@
+rebasing means using all the commits to the current branch, like it was originated form that new base
