@@ -1,0 +1,4 @@
+How to merge in git?
+
+If you don't know how to merge in git read this tutorial: 
+https://www.atlassian.com/git/tutorials/using-branches/git-merge
