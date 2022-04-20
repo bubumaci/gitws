@@ -1,0 +1,16 @@
+Merging Branches in a Local Repository
+To merge branches locally, use git checkout to switch to the branch you want to merge into. This branch is typically the main branch. Next, use git mergeand specify the name of the other branch to bring into this branch.
+
+git checkout main
+git merge <branch>
+
+Merging Branches to Remote Repository
+If you create a branch in your local repository, the remote repository is not aware of the branch’s existence. Before you can push the branch code in the remote repository, you set the remote repository as the upstream branch using the git pushcommand. This command simultaneously sets the upstream branch and pushes the branch contents to the remote repository.
+
+git push --set-upstream origin <branch name>
+
+Merging Main into a Branch
+While you are working on your branch, other developers may update the main branch with their branch. This action means your branch is now out of date of the main branch and missing content. You can merge the main branch into your branch by checking out your branch and using the same git merge command.
+
+git checkout <branch name>
+git merge main
