@@ -116,3 +116,19 @@ Git merging combines sequences of commits into one unified history of commits.
 There are two main ways Git will merge: Fast Forward and Three way
 Git can automatically merge commits unless there are changes that conflict in both commit sequences.
 This document integrated and referenced other Git commands like: git branch, git pull, and git fetch. Visit their corresponding stand-alone pages for more information.
+
+
+
+
+
+git rebase
+This document will serve as an in-depth discussion of the git rebase command. The Rebase command has also been looked at on the setting up a repository and rewriting history pages. This page will take a more detailed look at git rebase configuration and execution. Common Rebase use cases and pitfalls will be covered here.
+
+Rebase is one of two Git utilities that specializes in integrating changes from one branch onto another. The other change integration utility is git merge. Merge is always a forward moving change record. Alternatively, rebase has powerful history rewriting features. For a detailed look at Merge vs. Rebase, visit our Merging vs Rebasing guide. Rebase itself has 2 main modes: "manual" and "interactive" mode. We will cover the different Rebase modes in more detail below.
+
+What is git rebase?
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow. The general process can be visualized as the following:
+
+Git tutorial: Git rebase
+From a content perspective, rebasing is changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit. Internally, Git accomplishes this by creating new commits and applying them to the specified base. It's very important to understand that even though the branch looks the same, it's composed of entirely new commits.
+
