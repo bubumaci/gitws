@@ -1,2 +1,8 @@
+Merge
 - use the command: git merge <branch-name>
 - resolve conflicts
+
+Rebase
+- rebase replaces the current branch on the selected branch
+- history will not show the past state
+- git rebase <branch-name>
