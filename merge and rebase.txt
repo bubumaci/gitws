@@ -1,0 +1,4 @@
+https://lmgtfy.app/?q=how+to+merge+in+git
+
+EDIT:
+how git rebase works: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
