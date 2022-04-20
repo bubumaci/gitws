@@ -1,1 +1,3 @@
-keep things you need, throw out things you dont, then push...
+Git rebase in standard mode will automatically take the commits in your current working branch and apply them to the head of the passed branch.
+git rebase <base>
+This automatically rebases the current branch onto , which can be any kind of commit reference (for example an ID, a branch name, a tag, or a relative reference to HEAD).
