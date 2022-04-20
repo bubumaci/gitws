@@ -14,3 +14,10 @@ While you are working on your branch, other developers may update the main branc
 
 git checkout <branch name>
 git merge main
+
+Git Rebase
+Rebasing a branch in Git is a way to move the entirety of a branch to another point in the tree. The simplest example is moving a branch further up in the tree.
+To rebase, make sure you have all the commits you want in the rebase in your master branch. Check out the branch you want to rebase and type git rebase master (where master is the branch you want to rebase on).
+
+git rebase master
+
