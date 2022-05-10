@@ -1,0 +1,5 @@
+# Create a feature branch based off of main
+git checkout -b feature_branch main
+# Edit files
+git commit -a -m "Adds new feature"
+git rebase HEAD
