@@ -11,12 +11,11 @@
 5. commit and push a modification to the file with an explanation for rebasing
     
 6. take a screenshot of the current git tree visual and push it to the git-doc-yourname branch
+
+hint: git log --all --decorate --oneline --graph
     
 7. rebase the explanations on top of your original firstname-familyname-web branch (OPTIONAL extra: and squash the two explanation commits together)
 
 8. merge git-doc-yourname into your firstname-familyname-web branch
 
 9. Create a pull request from your firstname-familyname-web branch to main.
-
-
-hint: git log --all --decorate --oneline --graph
