@@ -6,7 +6,7 @@
     
 3. cherry-pick the commit with the alpaca picture from the alpaca-pic branch to the top of your firstname-familyname-web branch and push it
     
-4. start a new branch called git-doc-yourname from your first commit, create and push a file on it that explains how to do merge in git
+4. start a new branch called git-doc-yourname from your first commit, create a file on it that explains how to do merge in git. Then commit it and push it to your branch.
     
 5. commit and push a modification to the file with an explanation for rebasing
     
